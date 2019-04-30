@@ -5,10 +5,13 @@
 //
 
 export const hey = (message) => {
+  const lastChar = message[message.length-1]
+
   if (message.toUpperCase() === message) {
     return "Whoa, chill out!"
-  } else if (message[message.length-1] === '?') {
+  } else if (lastChar === '?') {
     return "Sure."
   }
+
   return "Whatever."
 };
