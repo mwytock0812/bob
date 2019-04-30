@@ -5,5 +5,8 @@
 //
 
 export const hey = (message) => {
+  if (message.toUpperCase() === message) {
+    return "Whoa, chill out!"
+  }
   return "Whatever."
 };
