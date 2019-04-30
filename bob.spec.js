@@ -16,7 +16,7 @@ describe('Bob', () => {
     expect(result).toEqual('Whoa, chill out!');
   });
 
-  xtest('asking a question', () => {
+  test('asking a question', () => {
     const result = hey('Does this cryogenic chamber make me look fat?');
     expect(result).toEqual('Sure.');
   });
