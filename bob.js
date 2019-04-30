@@ -5,7 +5,5 @@
 //
 
 export const hey = (message) => {
-  //
-  // YOUR CODE GOES HERE
-  //
+  return "Whatever."
 };
